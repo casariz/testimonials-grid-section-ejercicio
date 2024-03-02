@@ -1,68 +1,107 @@
 html {
-    font-family: "Barlow Semi Condensed", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    background-color: hsl(203, 44%, 93%);
-    font-size: 13px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: hsl(203, 44%, 93%);
+  font-size: 13px;
 }
 
 .container {
-    display: flex;
-    width: 1440px;
-    height: 500px;
+  display: flex;
+  width: 1440px;
 }
 
-.left{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin: 10px;
+.left {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 10px;
 }
 
 .text {
-    color: #cfcfcf;
+  color: hsl(0, 0%, 81%);
+  opacity: 0.7;
+  line-height: 20px;
 }
 
-.blanquito h2{
-    color: #ecf2f8;
+.grisaceo {
+  color: hsl(0, 0%, 40%);
+}
+
+.text-grisaceo {
+  color: hsl(0, 0%, 40%);
+  opacity: 0.7;
+  line-height: 20px;
+}
+
+.blanquito h2 {
+  color: hsl(210, 46%, 95%);
+}
+
+.top {
+  display: flex;
 }
 
 .top-1 {
-    border-radius: 5px 5px 5px 5px;
-    background-color: #7541c8;
-    padding: 30px;
-    margin: 10px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #7541c8;
+  padding: 30px;
+  margin: 10px;
 }
 
 .top-2 {
-    border-radius: 5px 5px 5px 5px;
-    background-color: #48556a;
-    padding: 30px;
-    margin: 10px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #48556a;
+  padding: 30px;
+  margin: 10px;
+}
+
+.bottom {
+  display: flex;
 }
 
 .bottom-1 {
-    border-radius: 5px 5px 5px 5px;
-    background-color: white;
-    padding: 30px;
-    margin: 10px;  
+  border-radius: 5px 5px 5px 5px;
+  background-color: white;
+  padding: 30px;
+  margin: 10px;
 }
 
 .bottom-2 {
-    border-radius: 5px 5px 5px 5px;
-    background-color: #19212e;
-    padding: 30px;
-    margin: 10px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #19212e;
+  padding: 30px;
+  margin: 10px;
 }
 
 .right {
-    width: 900px;
-    border-radius: 5px 5px 5px 5px;
-    background-color: white;    
-    padding: 30px;  
+  width: 950px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: white;
+  padding: 30px;
 }
 
-img {
-    border-radius: 100%;
-    width: 35px;
+.photo {
+  color: #cfcfcf;
+  display: flex;
+}
+
+.name {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.graduate {
+  font-size: 11px;
+  opacity: 0.5;
+}
+
+.quotes {
+    position: relative;
+}
+
+.img-photo {
+  display: inline-block;
+  border-radius: 100%;
+  width: 30px;
 }
