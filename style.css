@@ -9,6 +9,7 @@ html {
 .container {
   display: flex;
   width: 1440px;
+  gap: 1%;
 }
 
 .left {
@@ -16,6 +17,11 @@ html {
   flex-wrap: wrap;
   flex-direction: row;
   margin: 10px;
+  gap: 2%;
+}
+
+.title{
+  position: relative;
 }
 
 .text {
@@ -40,38 +46,39 @@ html {
 
 .top {
   display: flex;
+  gap: 2%;
 }
 
 .top-1 {
   border-radius: 5px 5px 5px 5px;
   background-color: #7541c8;
   padding: 30px;
-  margin: 10px;
+  flex: 1 1 65%;
 }
 
 .top-2 {
   border-radius: 5px 5px 5px 5px;
   background-color: #48556a;
   padding: 30px;
-  margin: 10px;
+  
 }
 
 .bottom {
   display: flex;
+  gap: 2%;
 }
 
 .bottom-1 {
   border-radius: 5px 5px 5px 5px;
   background-color: white;
   padding: 30px;
-  margin: 10px;
 }
 
 .bottom-2 {
   border-radius: 5px 5px 5px 5px;
   background-color: #19212e;
   padding: 30px;
-  margin: 10px;
+  gap: 2%;
 }
 
 .right {
@@ -97,7 +104,9 @@ html {
 }
 
 .quotes {
-    position: relative;
+  position: absolute;
+  left: 380px;
+  top: 30px;
 }
 
 .img-photo {
